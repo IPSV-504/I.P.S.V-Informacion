@@ -1,0 +1,1441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+    --menu: #AA1500;
+    --menu-hover: rgba(170, 21, 1, 0.5);
+    --btn-hover: rgba(255, 255, 255, 0.5);
+    --btn: white;
+    --btm-redes: #AA1500;
+    --twitter: #35b1c7;
+    --facebook: #0074B6;
+    --Wasap: #55DC0D;
+    --instagram: #AA23F2;
+    --pinterest: #710E00;
+    --bag: linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%);
+    --clase-bacground: #D93127;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.img2{
+    width: 50vh;
+    height: 60vh;
+    
+}
+.nav-menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: var(--menu);
+    border-bottom: 2px solid black;
+}
+
+.img{
+    display: flex;
+    width: 30%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ipsv{
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.ipsv:hover{
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.menu{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+    font-size-adjust: 16px;
+    margin-right: 100px;
+    transition: 1s;
+}
+
+.menu a:hover{
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+/*contenedor-inicio*/
+
+.contenedor-inicio{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgb(131,58,180);
+    background:  linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%), url(../img/home2.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contenedor-inicio2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgb(131,58,180);
+    background:  linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%), url(../img/7mo.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: black;
+    transition: 1s;
+}
+
+.titulo:hover{
+    font-size: 60px;
+    color: white;
+    transition: 1s;
+}
+
+.p{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    transition: 1s;
+}
+
+.p:hover{
+    font-size: 40px;
+    color: white;
+    transition: 1s;
+}
+
+/*contenedor-servis*/
+
+.contenedor-servis{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ser-cont{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.sub-titulo{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.sub-titulo:hover{
+    font-size: 35px;
+    color: white;
+    transition: 1s;
+}
+
+.parrafo{
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.parrafo:hover{
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.sub-titu{
+    font-family: cursive;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.sub-titu:hover{
+    color: white;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.jornadas{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.jornadas:hover{
+    color: white;
+    font-size: 25px;
+    transition: 1s;
+}
+
+/*contenedor'grados*/
+
+.contenedor-grados{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   flex-direction: column;
+}
+
+.colegio{
+
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10vh;
+}
+
+.bachillerato{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sectimo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    flex-direction: column;
+    margin-right: 20px;
+    transition: 2s;
+}
+
+
+.sectimo h2{
+    font-family: cursive;
+    margin-bottom: 0;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.sectimo a{
+    color: black;
+    font-size: 0;
+    transition: 1s;
+}
+
+.sectimo:hover a{
+    font-size: 16px;
+    transition: 2s;
+}
+
+.sectimo{
+    transition: 1s;
+}
+
+.sectimo:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.sectimo:hover h2{
+    background: transparent;
+    margin-bottom: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 1s;
+}
+
+.sectimo a{
+    text-decoration: none;
+}
+
+.sectimo:hover a{
+    background: white;
+    border: 2px solid white;
+    font-family: cursive;
+    padding: 5px;
+    transition: 1s;
+    border-radius: 20px;
+    color: #302525;
+}
+
+/*contenedor-contactar*/
+
+.contenedor-contactar{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: var(--bag);
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.redes-contactar{
+    display: flex;
+    
+}
+
+.F{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: var(--btm-redes);
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.F{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.W{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: var(--btm-redes);
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.W{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.I{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: var(--btm-redes);
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.I{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.T{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: var(--btm-redes);
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.T{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.P{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: var(--btm-redes);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.P{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.P:hover{
+    background: var(--pinterest);
+    font-size: 25px;
+    transition: 1s;
+}
+
+.F:hover{
+    background: var(--facebook);
+    font-size: 25px;
+    transition: 0.9s;
+}
+
+.W:hover{
+    background: var(--Wasap);
+    font-size: 25px;
+    transition: 0.9s;
+}
+
+.T:hover{
+    background: var(--twitter);
+    font-size: 25px;
+    transition: 0.9s;
+}
+
+.I:hover{
+    background: var(--instagram);
+    font-size: 25px;
+    transition: 0.9s;
+}
+
+
+/*contenedor-clases*/
+
+.contenedor-clases{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contenedor-clases12{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.parte1{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.parte2{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.parte3{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.clases{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.clases{
+    background: transparent;
+    transition: 1s;
+}
+
+
+.clases1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-c{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+
+.clases{
+    background: transparent;
+    transition: 2s;
+}
+.clases1:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    transition: 1s;
+}
+
+.clases{
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.clases:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 1s;
+}
+
+.tc{
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+}
+
+.tc2{
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+}
+
+.clases:hover .tc2{
+    background: transparent;
+    font-size: 20px;
+    color: white    ;
+    font-weight: 500;
+    transition: 1s;
+}
+.clases1:hover .tc2{
+    background: transparent;
+    font-size: 20px;
+    color: white    ;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.clases:hover .tc{
+    background: transparent;
+    font-size: 20px;
+    color: white    ;
+    font-weight: 500;
+    transition: 1s;
+}
+.clases1:hover .tc{
+    background: transparent;
+    font-size: 20px;
+    color: white    ;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.titulo-3{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wi{
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+    transition: 1s;
+}
+
+.wi:hover{
+    font-size: 40px;
+    color: white;
+    transition: 1s;
+}
+
+#user-g{
+    color: transparent;
+    font-size: 5px;
+    transition: 1s;
+}
+
+.sectimo:hover #user-g{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+#book{
+    font-size: 0px;
+    color: transparent;
+    transition: 1s;
+}
+
+.clases:hover #book{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.clases1:hover #book{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 900px){
+
+    .nav-menu{
+        width: 100%;
+        height: 50px;
+    }
+
+    .img{
+        width: 20%;
+        height: 50px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .img2{
+        width: 40vh;
+        height: 40vh;
+    }
+    .menu{
+        width: 80%;
+        height: 50px;
+    }
+
+    .menu a{
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
+    .ipsv{
+        font-size: 16px;
+    }
+
+    .ipsv:hover{
+        font-size: 18px;
+    }
+
+    .menu a:hover{
+        font-size: 18px;
+    }
+
+    .titulo{
+        font-size: 30px;
+
+    }
+
+    .titulo:hover{
+        font-size: 40px;
+    }
+
+    .p{
+        font-size: 20px;
+    }
+
+    .p:hover{
+        font-size: 25px;
+    }
+
+    .sub-titulo{
+        font-size: 15px;
+    }
+
+    .sub-titulo:hover{
+        font-size: 20px;
+    }
+
+    .parrafo{
+        font-size: 10px;
+    }
+
+    .parrafo:hover{
+        font-size: 12px;
+    }
+
+    .sub-titu{
+        font-size: 20px;
+    }
+
+    .sub-titu:hover{
+        font-size: 25px;
+    }
+
+    .jornadas{
+        font-size: 15px;
+    }
+
+    .jornadas:hover{
+        font-size: 16px;
+    }
+
+    .sectimo{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .colegio{
+        margin-top: 0px;
+    }
+
+    .sectimo:hover #user_g{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .sectimo:hover a{
+        font-size: 12px;
+    }
+
+    .clases{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+    .parte1{
+
+        height: 220px;
+        
+    }
+
+    .parte2{
+        height: 220px;
+    }
+    
+    .parte3{
+        height: 220px;
+    }
+
+    .tc{
+        font-size: 25px;
+    }
+
+    .tc2{
+        font-size: 25px;
+    }
+
+    .clases:hover #book{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .clases:hover .tc{
+        font-size: 20px;
+    }
+
+    .clases:hover .tc2{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .nav-menu{
+        width: 100%;
+        height: 50px;
+    }
+
+    .img{
+        width: 20%;
+        height: 50px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .img2{
+        width: 40vh;
+        height: 40vh;
+    }
+    .menu{
+        width: 80%;
+        height: 50px;
+    }
+
+    .menu a{
+        margin-right: 40px;
+        font-size: 14px;
+    }
+
+    .ipsv{
+        font-size: 14px;
+    }
+
+    .ipsv:hover{
+        font-size: 16px;
+    }
+
+    .menu a:hover{
+        font-size: 16px;
+    }
+
+    .titulo{
+        font-size: 23px;
+
+    }
+
+    .titulo:hover{
+        font-size: 28px;
+    }
+
+    .p{
+        font-size: 18px;
+    }
+
+    .p:hover{
+        font-size: 23px;
+    }
+
+    .sub-titulo{
+        font-size: 15px;
+    }
+
+    .sub-titulo:hover{
+        font-size: 20px;
+    }
+
+    .parrafo{
+        font-size: 10px;
+    }
+
+    .parrafo:hover{
+        font-size: 12px;
+    }
+
+    .sub-titu{
+        font-size: 20px;
+    }
+
+    .sub-titu:hover{
+        font-size: 25px;
+    }
+
+    .jornadas{
+        font-size: 15px;
+    }
+
+    .jornadas:hover{
+        font-size: 16px;
+    }
+
+    .sectimo{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .colegio{
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .nav-menu{
+        width: 100%;
+        height: 50px;
+    }
+
+    .img{
+        width: 20%;
+        height: 50px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .img2{
+        width: 30vh;
+        height: 30vh;
+    }
+    .menu{
+        width: 80%;
+        height: 50px;
+    }
+
+    .menu a{
+        margin-right: 40px;
+        font-size: 14px;
+    }
+
+    .menu a:hover{
+        font-size: 15px;
+    }
+
+    .ipsv{
+        font-size: 14px;
+    }
+
+    .ipsv:hover{
+        font-size: 15px;
+    }
+
+    .titulo{
+        font-size: 30px;
+
+    }
+
+    .titulo:hover{
+        font-size: 40px;
+    }
+
+    .p{
+        font-size: 20px;
+    }
+
+    .p:hover{
+        font-size: 25px;
+    }
+
+    .sub-titulo{
+        font-size: 15px;
+    }
+
+    .sub-titulo:hover{
+        font-size: 20px;
+    }
+
+    .parrafo{
+        font-size: 10px;
+    }
+
+    .parrafo:hover{
+        font-size: 12px;
+    }
+
+    .sub-titu{
+        font-size: 20px;
+    }
+
+    .sub-titu:hover{
+        font-size: 25px;
+    }
+
+    .jornadas{
+        font-size: 15px;
+    }
+
+    .jornadas:hover{
+        font-size: 16px;
+    }
+
+    .sectimo{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .colegio{
+        margin-top: 0px;
+    }
+
+    .sectimo:hover #user_g{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .sectimo:hover a{
+        font-size: 12px;
+    }
+
+    .clases{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+    .parte1{
+
+        height: 220px;
+        
+    }
+
+    .parte2{
+        height: 220px;
+    }
+    
+    .parte3{
+        height: 220px;
+    }
+
+    .tc{
+        font-size: 25px;
+    }
+
+    .tc2{
+        font-size: 25px;
+    }
+
+    .clases:hover #book{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .clases:hover .tc{
+        font-size: 20px;
+    }
+
+    .clases:hover .tc2{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .nav-menu{
+        width: 600px;
+        height: 50px;
+    }
+
+    .img{
+        width: 20%;
+        height: 50px;
+    }
+
+    .logo{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .img2{
+        width: 25vh;
+        height: 25vh;
+    }
+    .menu{
+        width: 80%;
+        height: 50px;
+    }
+
+    .menu a{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    .ipsv{
+        font-size: 12px;
+    }
+
+    .ipsv:hover{
+        font-size: 14px;
+    }
+
+    .menu a:hover{
+        font-size: 14px;
+    }
+
+    .titulo{
+        font-size: 30px;
+
+    }
+
+    .titulo:hover{
+        font-size: 40px;
+    }
+
+    .p{
+        font-size: 20px;
+    }
+
+    .p:hover{
+        font-size: 25px;
+    }
+
+    .sub-titulo{
+        font-size: 15px;
+    }
+
+    .sub-titulo:hover{
+        font-size: 20px;
+    }
+
+    .parrafo{
+        font-size: 10px;
+    }
+
+    .parrafo:hover{
+        font-size: 12px;
+    }
+
+    .sub-titu{
+        font-size: 20px;
+    }
+
+    .sub-titu:hover{
+        font-size: 25px;
+    }
+
+    .jornadas{
+        font-size: 15px;
+    }
+
+    .jornadas:hover{
+        font-size: 16px;
+    }
+
+    .sectimo{
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+    }
+
+    .sectimo:hover h2{
+        margin-bottom: 10px;
+    }
+
+    .colegio{
+        margin-top: 0px;
+    }
+
+    .sectimo:hover #user_g{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .sectimo:hover a{
+        font-size: 12px;
+    }
+
+    .clases{
+        width: 100px;
+        height: 100px;
+    }
+
+    .tc{
+        font-size: 15px;
+    }
+
+    .tc2{
+        font-size: 15px;
+    }
+
+    .clases:hover #book{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .clases:hover .tc{
+        font-size: 10px;
+    }
+
+    .clases:hover .tc2{
+        font-size: 10px;
+    }
+
+    .parte1{
+        margin-top: 10vh;
+        height: 120px;
+        
+    }
+
+    .parte2{
+        height: 120px;
+    }
+    
+    .parte3{
+        height: 120px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .nav-menu{
+        width: 600px;
+        height: 50px;
+    }
+
+    .img{
+        width: 20%;
+        height: 50px;
+    }
+
+    .logo{
+        margin-left: 30px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .ipsv{
+        font-size: 10px;
+
+    }
+
+    .ipsv:hover{
+        font-size: 12px;
+    }
+
+    .img2{
+        width: 25vh;
+        height: 25vh;
+    }
+    .menu{
+        width: 80%;
+        height: 50px;
+    }
+
+    .menu a{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .menu a:hover{
+        font-size: 12px;
+    }
+
+    .titulo{
+        font-size: 30px;
+
+    }
+
+    .titulo:hover{
+        font-size: 40px;
+    }
+
+    .p{
+        font-size: 20px;
+    }
+
+    .p:hover{
+        font-size: 25px;
+    }
+
+    .sub-titulo{
+        font-size: 15px;
+    }
+
+    .sub-titulo:hover{
+        font-size: 20px;
+    }
+
+    .parrafo{
+        font-size: 10px;
+    }
+
+    .parrafo:hover{
+        font-size: 12px;
+    }
+
+    .sub-titu{
+        font-size: 20px;
+    }
+
+    .sub-titu:hover{
+        font-size: 25px;
+    }
+
+    .jornadas{
+        font-size: 15px;
+    }
+
+    .jornadas:hover{
+        font-size: 16px;
+    }
+
+    .sectimo{
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+    }
+
+    .sectimo:hover h2{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .colegio{
+        margin-top: 0px;
+    }
+
+    .sectimo:hover #user_g{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .sectimo:hover a{
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .sectimo h2{
+        font-size: 20px;
+    }
+
+    .clases{
+        width: 100px;
+        height: 100px;
+    }
+
+    .tc{
+        font-size: 15px;
+    }
+
+    .tc2{
+        font-size: 15px;
+    }
+
+    .clases:hover #book{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .clases:hover .tc{
+        font-size: 10px;
+    }
+
+    .clases:hover .tc2{
+        font-size: 10px;
+    }
+
+    .parte1{
+        margin-top: 10vh;
+        height: 120px;
+        
+    }
+
+    .parte2{
+        height: 120px;
+    }
+    
+    .parte3{
+        height: 120px;
+    }
+
+    .redes-contactar a{
+        margin-right: 20px;
+    }
+
+}

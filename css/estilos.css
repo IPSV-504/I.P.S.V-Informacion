@@ -112,7 +112,7 @@ header{
     width: 100%;
     height: 100vh;
     background: rgb(131,58,180);
-    background:  linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%), url(../img/7mo.jpg);
+    background:  linear-gradient(90deg, rgba(253,29,29,0.7) 47%, rgba(252,176,69,0.7) 84%), url(../img/home2.jpg);
     justify-content: center;
     align-items: center;
     text-align: center;
